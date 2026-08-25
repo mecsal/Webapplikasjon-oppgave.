@@ -15,7 +15,13 @@ header {
     padding: 15px 10px;
     align-items:center;
     width: 100%;
-nav u1
+}
+nav ul {
+    display: flex;
+    list-style: none; /* Fjerner prikkene foran lenkene */
+    gap: 20px;       /* Gir luft mellom Upcoming, Popular osv. */
+    margin: 0;
+    padding: 0;
 }
 .TheHeader nav {
     display: flex;
