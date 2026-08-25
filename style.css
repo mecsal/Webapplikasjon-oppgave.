@@ -4,44 +4,36 @@
     margin: 0;
     padding: 0;
 }
-
-
 header {
     background-color: #121212;
     color: white;
     position: relative;
 }
-
 .TheHeader {
     display: flex;
     justify-content: space-between;
     padding: 15px 10px;
     align-items: center;
 }
-
 .TheHeader nav {
     display: flex;
     align-items: center;
 }
-
 .TheHeader nav a {
         padding: 15px;
         transition: background-color 0.3s ease, color 0.3s ease;
         border-radius: 10px;
 }
-
 .TheHeader nav a:hover {
      color: rgb(2, 2, 2);
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
 }
-
 .TheHeader nav ul {
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
 }
-
 .TheHeader nav ul li {
     padding: 0 30px;
     font-size: 21px;
@@ -49,16 +41,13 @@ header {
     list-style: none;
     text-decoration: none;
 }
-
 .TheHeader li a {
     color: white;
     text-decoration: none;
 }
-
 #LogoHeader img {
     width: 60px;
 }
-
 #LogoHeader h1 {
     font-size: 25px;
     display: flex;
@@ -69,23 +58,19 @@ header {
     padding: 10px;
     border-radius: 10px;
 }
-
 #LogoHeader a {
     color: rgb(3, 3, 3);
     text-decoration: none;
 }
-
 .IconsLogos {
     display: flex;
     align-items: center;
     margin-right: 250px;
 }
-
 .IconsLogos span {
     font-size: 40px;
     padding: 0 5px;
 }
-
 .IconsLogos a {
     text-decoration: none;
     color: white;
@@ -103,43 +88,36 @@ header {
 #profile {
     display: flex;
 }
-
 #dropdown1 {
     padding: 15px;
     margin-top: -15px;
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 10px;
 }
-
 #dropdown1:hover {
     background-color: white;
     color: black;
     cursor: pointer;
 }
-
 #dropdown2 {
     padding: 15px;
     margin-top: -15px;
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 10px;
 }
-
 #dropdown2:hover {
     background-color: white;
     color: black;
     cursor: pointer;
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: sandybrown;
 }
-
 .about-us 
 {
     height: 100vh;
