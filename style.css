@@ -13,7 +13,8 @@ header {
     display: grid;
     justify-content: space-between;
     padding: 15px 10px;
-    align-items:center ;
+    align-items:center;
+    width: 100vh;
 }
 .TheHeader nav {
     display: flex;
