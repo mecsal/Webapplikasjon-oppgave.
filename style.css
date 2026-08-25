@@ -10,10 +10,10 @@ header {
     position: relative;
 }
 .TheHeader {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     padding: 15px 10px;
-    align-items: center;
+    align-items:center ;
 }
 .TheHeader nav {
     display: flex;
