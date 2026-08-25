@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
     padding: 15px 10px;
     align-items:center;
-    width: 100vh;
+    width: 50vh;
 }
 .TheHeader nav {
     display: flex;
