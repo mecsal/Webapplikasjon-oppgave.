@@ -222,8 +222,10 @@ main {
 }
 
 .GameContent p {
-    width: 80%;
+    width: 40%;
     padding: 3rem 0 0 0;
+    color: #121212f1;
+    font-size: 20px;
 }
 
 .GameContent button {
@@ -244,11 +246,7 @@ main {
 .GameContent button:hover {
     background-color: #fff;
     color: #121212f1;
-}
-
-.CartText {
-    font-size: 15px;
-    
+    cursor: pointer;
 }
 
 /* -------Footer------- */
