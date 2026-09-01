@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------Header--------- */
+header {
+    background-color: #121212f1;
+    color: white;
+    position: relative;
+}
+
+.TheHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    align-items: center;
+}
+
+.TheHeader nav {
+    display: flex;
+    align-items: center;
+}
+
+.TheHeader nav a {
+    padding: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 10px;
+}
+
+.TheHeader nav a:hover {
+    color: rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.TheHeader nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.TheHeader nav ul li {
+    padding: 0 30px;
+    font-size: 19px;
+    font-family: "Nunito Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.TheHeader li a {
+    color: white;
+    text-decoration: none;
+}
+
+#LogoHeader img {
+    width: 60px;
+}
+
+#LogoHeader h1 {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    margin-left: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#LogoHeader a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+
+.IconsLogos {
+    display: flex;
+    align-items: center;
+    margin-right: 250px;
+}
+
+#CartText {
+    font-size: 15px;
+    margin-top: -8px;
+}
+
+.IconsLogos span {
+    font-size: 35px;
+}
+
+.IconsLogos a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.IconsLogos p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#profile {
+    display: flex;
+}
+
+#Dropdown1 {
+    padding: 15px;
+    margin-top: -15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 10px;
+}
+
+#Dropdown1:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#Dropdown2 {
+    padding: 15px;
+    margin-top: -15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 10px;
+}
+
+#Dropdown2:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#DropdownSymbol {
+    font-size: 25px;
+    margin-left: -5px;
+}
+
+/* ----------main---------- */
+
+
+.TheContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.TheSmallPage {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    box-shadow: 0px 2px 40px 10px  rgba(0, 0, 0, 0.192);
+    height: 40vmax;
+    background-color: white;
+    padding: 50px;
+}
+
+#Text2 p {
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0 200px 0 10px;
+    margin-bottom: 10vmax;
+    width: 20rem;
+}
+
+#Text2 h2 {
+    margin: 0 200px 0 10px;
+    padding: 0 0 1rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#Logo2 img {
+    width: 400px;
+    height: 400px;
+    margin: 0 0 0 -100px;
+}
+
+/* -------Footer------- */
+.TheFooter {
+    padding: 3rem 15rem;
+}
+
+Footer {
+    background-color: #121212f1;;
+}
+
+.TheFooter nav a {
+    color: rgb(255, 253, 255);
+    text-decoration: none;
+}
+
+.TheFooter nav a:hover {
+    text-decoration: underline;
+}
+
+.TheFooter nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TheFooter nav ul li {
+    padding: 0 3vmax;
+    font-size: 19px;
+    font-family: "Nunito Sans", sans-serif;
+    list-style: none;
+}
+
+#CR26 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin-bottom: -205px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ContactAndHelp {
+    display: flex;
+}
+
+#AboutAndTerms {
+    display: flex;
+}
+
+#BigSpacing {
+    height: 20rem;
+}

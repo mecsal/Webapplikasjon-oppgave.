@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #121212f1;
+    color: white;
+    position: relative;
+}
+
+.TheHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    align-items: center;
+}
+
+.TheHeader nav {
+    display: flex;
+    align-items: center;
+}
+
+.TheHeader nav a {
+    padding: 15px;
+    transition: 0.3s ease-out;
+    border-radius: 10px;
+}
+
+.TheHeader nav a:hover {
+    color: rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.TheHeader nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.TheHeader nav ul li {
+    padding: 0 30px;
+    font-size: 19px;
+    font-family: "Nunito Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.TheHeader li a {
+    color: white;
+    text-decoration: none;
+}
+
+#LogoHeader img {
+    width: 60px;
+}
+
+#LogoHeader h1 {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    margin-left: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#LogoHeader a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+
+.IconsLogos {
+    display: flex;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.CartText {
+    font-size: 15px;
+    margin-top: -8px;
+}
+
+.IconsLogos span {
+    font-size: 35px;
+}
+
+.IconsLogos a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.IconsLogos p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#profile {
+    display: flex;
+}
+
+#Dropdown1 {
+    padding: 15px;
+    margin-top: -15px;
+    transition: 0.3s ease-out;
+    border-radius: 10px;
+}
+
+#Dropdown1:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#Dropdown2 {
+    padding: 15px;
+    margin-top: -15px;
+    transition: 0.3s ease-out;
+    border-radius: 10px;
+}
+
+#Dropdown2:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#DropdownSymbol {
+    font-size: 25px;
+    margin-left: -5px;
+}
+
+/* ----------main---------- */
+main {
+    min-height: 100vh;
+}
+
+/* Image preview slider https://www.youtube.com/watch?v=McPdzhLRzCg */
+.TheGamePage:not(.GameDetails) {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+.ImageContent {
+    position: relative;
+    max-width: 60rem;
+    margin: 0 3rem;
+}
+
+.Images {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.Images img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.ImageSlider-Nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.ImageSlider-Nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.ImageSlider-Nav a:hover {
+    opacity: 1;
+}
+
+.GameContent {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.GameContent a {
+    color: black;
+}
+
+.GameContent a:hover {
+    color:rgb(20, 97, 241);
+}
+
+.GameContent h1 {
+    margin: 1rem 0 0 0;
+}
+
+.GameContent h2 {
+    margin: 1rem 0 0 0;
+}
+
+.GameContent h3 {
+    font-size: 0.9vmax;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.GameContent p {
+    width: 80%;
+    padding: 3rem 0 0 0;
+}
+
+.GameContent button {
+    display: flexbox;
+    justify-content: space-around;
+    margin: 0 20px 0 0;
+    border: 1px solid black;
+    padding: 1vmax;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1vmax;
+    margin-top: 12vmax;
+    border-radius: 3px;
+    background-color: #121212f1;
+    color: #fff;
+    transition: ease-out 0.3s;
+}
+
+.GameContent button:hover {
+    background-color: #fff;
+    color: #121212f1;
+}
+
+.CartText {
+    font-size: 15px;
+    
+}
+
+/* -------Footer------- */
+.TheFooter {
+    padding: 3rem 15rem;
+}
+
+Footer {
+    background-color: #121212f1;
+}
+
+.TheFooter nav a {
+    color: rgb(255, 253, 255);
+    text-decoration: none;
+}
+
+.TheFooter nav a:hover {
+    text-decoration: underline;
+}
+
+.TheFooter nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TheFooter nav ul li {
+    padding: 0 3vmax;
+    font-size: 19px;
+    font-family: "Nunito Sans", sans-serif;
+    list-style: none;
+}
+
+#COPYRIGHT26 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin-bottom: -205px;
+    font-family: time 'Times New Roman', Times, serif;
+}
+
+#ContactAndHelp {
+    display: flex;
+}
+
+#AboutAndTerms {
+    display: flex;
+}
+
+#BigSpacing {
+    height: 20rem;
+}
