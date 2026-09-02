@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #121212f1;
+    color: white;
+    position: relative;
+}
+
+.TheHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    align-items: center;
+}
+
+.TheHeader nav {
+    display: flex;
+    align-items: center;
+}
+
+.TheHeader nav a {
+    padding: 15px;
+    transition: 0.3s ease-out;
+    border-radius: 10px;
+}
+
+.TheHeader nav a:hover {
+    color: rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.TheHeader nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.TheHeader nav ul li {
+    padding: 0 30px;
+    font-size: 19px;
+    font-family: "Nunito Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.TheHeader li a {
+    color: white;
+    text-decoration: none;
+}
+
+#LogoHeader img {
+    width: 60px;
+}
+
+#LogoHeader h1 {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    margin-left: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#LogoHeader a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+
+.IconsLogos {
+    display: flex;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.CartText {
+    font-size: 15px;
+    margin-top: -8px;
+}
+
+.IconsLogos span {
+    font-size: 35px;
+}
+
+.IconsLogos a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.IconsLogos p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#profile {
+    display: flex;
+}
+
+#Dropdown1 {
+    padding: 15px;
+    margin-top: -15px;
+    transition: 0.3s ease-out;
+    border-radius: 10px;
+}
+
+#Dropdown1:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#Dropdown2 {
+    padding: 15px;
+    margin-top: -15px;
+    transition: 0.3s ease-out;
+    border-radius: 10px;
+}
+
+#Dropdown2:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#DropdownSymbol {
+    font-size: 25px;
+    margin-left: -5px;
+}
+
+/* -------main--------- */
+
+main {
+    background-color: #121212f1;
+}
+
+.ContentGTA {
+    position: relative;
+}
+
+.ImageGTAVI img {
+    width: 100%;
+    height: 117vh;
+    object-fit: cover;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+#ShadowOverlay1 {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    min-height: 117vh;
+    top: 0;
+    z-index: 1;
+    background-image: linear-gradient(10deg, rgb(228, 20, 20), rgb(211, 60, 241), rgba(243, 239, 18, 0.788), black);
+    opacity: 15%;
+    transition: ease-in-out 0.5s;
+}
+
+#ShadowOverlay1:hover {
+    opacity: 10%;
+}
+
+.ImageFC27 img {
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.Buttons {
+    position: absolute;
+    top: 88%;
+    left: 1%;
+    z-index: 1;
+}
+
+.PreOrder {
+    padding: 1.5vmax 2vmax;
+    font-size: 30px;
+    border: 2px transparent;
+    border-radius: 100px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+}
+
+.Mores {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5vmax 2vmax;
+    font-size: 30px;
+    border: none;
+    border-radius: 100px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    margin: 0 10px;
+}
+
+.Mores span {
+    transform: scale(-1);
+    font-size: 35px;
+    font-weight: 900;
+    padding: 0 5px 0 0;
+}
+
+.Buttons button:hover {
+    cursor: pointer;
+    background-color: azure;
+}
+
+.Buttons2 {
+    position: absolute;
+    top: 235%;
+    right: 1%;
+    z-index: 1;
+}
+
+.Buttons2 button:hover {
+    cursor: pointer;
+    background-color: azure;
+}
+
+/* -------Footer------- */
+.TheFooter {
+    padding: 3rem 15rem;
+}
+
+Footer {
+    background-color: #121212f1;
+}
+
+.TheFooter nav a {
+    color: rgb(255, 253, 255);
+    text-decoration: none;
+}
+
+.TheFooter nav a:hover {
+    text-decoration: underline;
+}
+
+.TheFooter nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TheFooter nav ul li {
+    padding: 0 3vmax;
+    font-size: 19px;
+    font-family: "Nunito Sans", sans-serif;
+    list-style: none;
+}
+
+#COPYRIGHT26 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin-bottom: -205px;
+    font-family: tim;
+}
+
+#ContactAndHelp {
+    display: flex;
+}
+
+#AboutAndTerms {
+    display: flex;
+}
+
+#BigSpacing {
+    height: 20rem;
+}

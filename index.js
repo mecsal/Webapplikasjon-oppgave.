@@ -1,5 +1,5 @@
 
-// Tutorial for functional search bar https://www.youtube.com/watch?v=7OU4kTKV8dM
+// Functional search bar https://www.youtube.com/watch?v=7OU4kTKV8dM
 const searchPost = () => {
     const searchpost = document.getElementById("SearchBox").value.toUpperCase();
     const games = document.querySelectorAll(".Game");
@@ -30,6 +30,15 @@ const searchPost = () => {
 
 function myFunction() {
   var x = document.querySelector(".InsideFilter");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function selectLanguage() {
+  var x = document.querySelector(".LanguageBars");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {

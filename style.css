@@ -36,19 +36,59 @@ header {
     border-radius: 10px;
 }
 
-.TheHeader nav ul {
+.TheHeader nav ul:not(.SpecializedList) {
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
 }
 
-.TheHeader nav ul li {
+.TheHeader nav ul li:not(.SpecializedList li) {
     padding: 0 30px;
     font-size: 19px;
     font-family: "Nunito Sans", sans-serif;
     list-style: none;
     text-decoration: none;
     margin-top: 5px;
+}
+
+.LanguageContent {
+    position: relative;
+    user-select: none;
+}
+
+.LanguageBars {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.SpecializedList {
+    position: absolute;
+    font-family: "Nunito Sans", sans-serif;
+    list-style: none;
+    background-color: white;
+    color: #121212f1;
+    z-index: 1;
+    top: 87%;
+}
+
+.SpecializedList li {
+    font-size: 20px;
+    padding: 10px 35px;
+    font-weight: 450;
+}
+
+.SpecializedList li:hover {
+    background-color: #e0e0e0f1;
+    cursor: pointer;
+}
+
+#LanguageUS {
+    border-bottom: 2px solid #121212f1;
+}
+
+#LanguageNO {
+    border-bottom: 2px solid #121212f1;
 }
 
 .TheHeader li a {
@@ -172,6 +212,8 @@ header {
     padding: 0 2vmax ;
     border: solid gray 1px;
     border-radius: 2ch;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 #Searcher span {
@@ -240,7 +282,7 @@ header {
 }
 
 .PlatformFilter h4 {
-    margin: 4rem 0 0 0;
+    margin: 4rem 0 -0.8rem 0;
 }
 
 .PlatformFilter li {
@@ -255,7 +297,6 @@ header {
 .PlatformFilter img {
     width: 30px;
     padding: 0 0 0 10px;
-    
 }
 
 .PlatformFilter input {
@@ -274,6 +315,37 @@ header {
 
 
 .PlatformFilter label:hover {
+    cursor: pointer;
+}
+
+.Genre h4 {
+    margin: 4rem 0 -0.8rem 0;
+}
+
+.Genre li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 15px 0 0 0;
+}
+
+.Genre input {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 2px solid #121212f1;
+}
+
+.Genre input:checked {
+    background-color: #121212f1;
+}
+
+.Genre label:hover {
     cursor: pointer;
 }
 
