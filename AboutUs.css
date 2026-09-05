@@ -68,13 +68,13 @@ header {
     align-items: center;
     font-family: "Nunito Sans", sans-serif;
     margin-left: 250px;
-    background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
+    border: 1px solid #FFFFFF;
 }
 
 #LogoHeader a {
-    color: rgb(3, 3, 3);
+    color: #FFFFFF;
     text-decoration: none;
 }
 
