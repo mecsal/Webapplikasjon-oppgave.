@@ -44,4 +44,8 @@ function selectLanguage() {
   } else {
     x.style.display = "none";
   }
+  var element = document.querySelector(".LanguageContent");
+  element.addEventListener("click"), () => {
+    element.style.backgroundColor ="#FFFFFF";
+  }
 }
