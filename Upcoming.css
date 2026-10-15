@@ -235,6 +235,19 @@ main {
     background-color: azure;
 }
 
+#CartNumber {
+    position: absolute;
+    font-family: "Nunito Sans", sans-serif;;
+    font-size: 0.6rem;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    color: #121212f1;
+    border-radius: 100%;
+    padding: 0.1rem 0.3rem 0.1rem;
+    margin-left: 1.4rem;
+    border: 0.13rem solid #121212f1;
+}
+
 /* -------Footer------- */
 .TheFooter {
     padding: 3rem 15rem;

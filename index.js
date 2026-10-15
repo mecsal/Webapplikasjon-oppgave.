@@ -26,8 +26,7 @@ const searchPost = () => {
     }
 }
 
-// Show/hide contents inside the filter https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
-
+// Show/hide contents inside the filter https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp (Incomplete)
 function myFunction() {
   var x = document.querySelector(".InsideFilter");
   if (x.style.display === "none") {
@@ -37,6 +36,7 @@ function myFunction() {
   }
 }
 
+// Language selector (Incomplete)
 function selectLanguage() {
   var x = document.querySelector(".LanguageBars");
   if (x.style.display === "none") {
@@ -44,8 +44,13 @@ function selectLanguage() {
   } else {
     x.style.display = "none";
   }
-  var element = document.querySelector(".LanguageContent");
-  element.addEventListener("click"), () => {
-    element.style.backgroundColor ="#FFFFFF";
-  }
+}
+
+// Adding item to cart (Incorrect values and incomplete)
+function addToCart(click) {
+  const sum = document.getElementById("CartNumber");
+  const sumvalue = parseInt(CartNumber.innerText) + click;
+  console.log(sumvalue + click);
+  CartNumber.innerText = sumvalue;
+  alert("Added to cart") // Feedback lol
 }
